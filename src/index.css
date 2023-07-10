@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700&display=swap');
+
+:root{
+  --footer-background: #0e1219;
+  --gray: #595c61;
+}
+
+html{
+  font-size: 16px;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+*{
+  box-sizing:border-box;
+}
+
+body{
+  margin: 0px;
+  height: 100vh;
+}
+
+footer{
+  padding: 16px;
+  position: absolute;
+  bottom: 0px;
+  background-color: var( --footer-background );
+  color:white;
+  min-width: 300px;
+  width: 100vw;
+  bottom: 0px;
+  display: flex;
+  justify-content: center;
+}
